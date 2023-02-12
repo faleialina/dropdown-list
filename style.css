@@ -43,6 +43,7 @@ body {
     margin-top: 16px;
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
 
 
 
@@ -50,8 +51,7 @@ body {
 
 .dropdown-list div {
     display: flex;
-    border-radius: 8px;
-    border: #444242;
+    border: 1px solid #848282;
     width: 280px;
     background: #FFFFFF;
     align-items: center;
