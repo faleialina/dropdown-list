@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'K2D';
+}
+
+
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: #E5E5E5;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    color: #FFFFFF;
+    font-family: 400 16px 'Montserrat';
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px 16px;
+}
+
+.form {
+    color: #666666;
+    font-family: 500 16px 'Montserrat';
+
+}
+
+.img {
+    background-image: url(.//assets/Chevron2.svg);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 7px;
+    background-size: contain;
+}
