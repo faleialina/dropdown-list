@@ -41,12 +41,9 @@ body {
 .dropdown-list {
     color: #333333;
     margin-top: 16px;
-    display: flex;
+    display: none;
     flex-direction: column;
     border-radius: 8px;
-
-
-
 }
 
 .dropdown-list div {
@@ -56,6 +53,4 @@ body {
     background: #FFFFFF;
     align-items: center;
     padding: 20px 16px;
-
-
 }
