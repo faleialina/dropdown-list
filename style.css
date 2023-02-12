@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     font-style: normal;
-    font-family: 'K2D';
+    font-family: 500 16px 'Montserrat';
+
 }
 
 
@@ -17,8 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 280px;
-    color: #FFFFFF;
-    font-family: 400 16px 'Montserrat';
+    background-color: #FFFFFF;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 20px 16px;
@@ -26,7 +26,7 @@ body {
 
 .form {
     color: #666666;
-    font-family: 500 16px 'Montserrat';
+
 
 }
 
@@ -36,4 +36,26 @@ body {
     width: 12px;
     height: 7px;
     background-size: contain;
+}
+
+.dropdown-list {
+    color: #333333;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+
+
+}
+
+.dropdown-list div {
+    display: flex;
+    border: 1px solid #848282;
+    width: 280px;
+    background: #FFFFFF;
+    align-items: center;
+    padding: 20px 16px;
+
+
 }
