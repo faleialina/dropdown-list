@@ -26,12 +26,10 @@ body {
 
 .form {
     color: #666666;
-
-
 }
 
 .img {
-    background-image: url(.//assets/Chevron2.svg);
+    background-image: url(./assets/Chevron2.svg);
     background-repeat: no-repeat;
     width: 12px;
     height: 7px;
@@ -44,13 +42,14 @@ body {
     display: none;
     flex-direction: column;
     border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 310px;
 }
 
 .dropdown-list div {
     display: flex;
-    border: 1px solid #848282;
-    width: 280px;
-    background: #FFFFFF;
     align-items: center;
     padding: 20px 16px;
 }

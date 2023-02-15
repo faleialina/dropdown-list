@@ -1,6 +1,6 @@
 const img = document.querySelector('.dropdown');
 const dl = document.querySelector('.dropdown-list');
-
+const p = document.querySelector('.dropdown p');
 
 img.addEventListener('click', function () {
 
@@ -11,6 +11,11 @@ img.addEventListener('click', function () {
         dl.style.display = 'none';
         document.querySelector('.img').style = 'background-image: url(.//assets/Chevron.svg)';
     }
+})
+
+
+dl.addEventListener('click', (event) => {
+    p.textContent = event.target.textContent
 })
 
 
